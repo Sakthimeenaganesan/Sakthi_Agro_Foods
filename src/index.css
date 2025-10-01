@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.chat-bubble {
+  box-shadow: 0 6px 18px rgba(2,6,23,0.35);
+}
+
+.product-card {
+  transition: transform 200ms ease, box-shadow 200ms ease;
+}
+.product-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(2,6,23,0.18);
+}
